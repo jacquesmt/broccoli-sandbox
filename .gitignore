@@ -1,0 +1,58 @@
+# See http://help.github.com/ignore-files/ for more about ignoring files.
+
+# compiled output
+/dist
+/tmp
+/iteration-dist
+/coverage
+/test-dist
+
+# build artifacts
+/repoTemp
+
+# dependencies
+/node_modules
+/bower_components
+**/elm-stuff
+
+
+# misc
+/.sass-cache
+/connect.lock
+/coverage/*
+/libpeerconnection.log
+/.idea
+/.vscode
+npm-debug.log*
+yarn-error.log
+testem.log
+web-directory.iml
+.DS_Store
+tests/xunit.xml
+tests/xunit-acceptance.xml
+**/*.iml
+.tern-port
+.npmrc
+*.swp
+
+# Ignoring all idea files and target file generated
+response-management-agent-tests/common/.idea/*
+response-management-agent-tests/common/target/
+response-management-agent-tests/tests/target/
+response-management-agent-tests/tests/test-output/
+
+#Reconciler commit reference
+git_commit.txt
+*.log
+*.pyc
+
+# vscode bits
+.vscodeignore
+jsconfig.json
+typings/
+/public/vr
+
+# emacs bits!
+.dir-locals.el
+.projectile
+.tern-project
