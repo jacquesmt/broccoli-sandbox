@@ -5,6 +5,8 @@
   "main": "index.js",
   "scripts": {
     "build": "rm -rf dist && broccoli build dist",
+    "serve": "broccoli serve",
+    "bs": "npm run build && npm run serve",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
